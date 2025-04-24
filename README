@@ -1,0 +1,21 @@
+# 🗳️ Urna Eletrônica em Java
+
+Este projeto é uma simulação de uma **urna eletrônica** desenvolvida em **Java** com interface gráfica utilizando **Swing (JFrame)**. A aplicação permite que o usuário vote em dois cargos fictícios (por exemplo, Reitor e Diretor), com funcionalidades de digitação de número do candidato, votos nulos, votos em branco, confirmação e correção.
+
+## 📌 Funcionalidades
+
+- Digitação de número de candidatos via botões numéricos (0 a 9)
+- Contagem de cliques para separação entre os dois cargos
+- Voto em branco
+- Voto nulo
+- Botão para corrigir o voto atual
+- Confirmação de voto com mensagens de feedback
+- Exibição de mensagens de fim de votação após os dois votos
+
+## 💡 Como funciona
+
+O voto é realizado em **duas etapas**:
+1. Primeiro o usuário digita os dois dígitos do candidato ao **primeiro cargo** (ex: Reitor) e confirma.
+2. Depois, digita os dois dígitos do candidato ao **segundo cargo** (ex: Diretor) e confirma novamente.
+
+Durante a digitação, o número aparece em dois campos (`jTextField1` e `jTextField2`) e é processado para validar o candidato ou identificar um voto em branco/nulo.
